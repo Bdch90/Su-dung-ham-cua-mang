@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tìm giá trị trong mảng</title>
+</head>
+<body>
+<script type="text/javascript">
+	var color =["Red", "Green", "White", "Black"];
+	for(x=0;x<color.length;x++) {
+		color[x].join=color[x];
+	}
+	document.write(color);
+</script>
+</body>
+</html>
