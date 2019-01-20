@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Tìm giá trị trong mảng</title>
+</head>
+<body>
+<script type="text/javascript">
+	const input = prompt('Nhập vào 1 dãy số bất kỳ :');
+	const mang = input.toString();
+	const ket_qua = [mang[0]];
+	for (var x =1; x<mang.length; x++)
+	{
+		if ((mang[x-1])%2==0 && (mang[x]%2==0)) 
+		{
+			ket_qua.push('-',mang[x]);
+		}
+		else 
+		{
+			ket_qua.push(mang[x]);
+		}
+	}
+	document.write(ket_qua.join(''));
+</script>
+</body>
+</html>
