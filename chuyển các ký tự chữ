@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>chuyển các ký tự chữ </title>
+</head>
+<body>
+<script type="text/javascript">
+	var chuoi = 'The Quick Brown Fox';
+	document.write('Trước khi thay đổi :' +chuoi+'<br>');
+	var mang = [];
+	for(let x =0; x<=chuoi.length; x++) 
+	{
+		if(chuoi.charAt(x)===chuoi.charAt(x).toLowerCase()) 
+		{
+			mang.push(chuoi.charAt(x).toUpperCase());
+		}
+		else if (chuoi.charAt(x)===chuoi.charAt(x).toUpperCase())
+		{
+			mang.push(chuoi.charAt(x).toLowerCase());
+		}
+	}
+	document.write('Sau khi thay đổi : ' +(mang.join('')));
+</script>
+</body>
+</html>
