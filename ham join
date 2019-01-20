@@ -5,11 +5,8 @@
 </head>
 <body>
 <script type="text/javascript">
-	var color =["Red", "Green", "White", "Black"];
-	for(x=0;x<color.length;x++) {
-		color[x].join=color[x];
-	}
-	document.write(color);
+	myColor = ["Red", "Green", "White", "Black"];
+	console.log(myColor.join('+'));
 </script>
 </body>
 </html>
